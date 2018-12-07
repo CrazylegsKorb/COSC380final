@@ -1,0 +1,32 @@
+{
+  "name": "drink-search",
+  "version": "1.1.0",
+  "description": "scans through a drink database to provide users with drinks by ingredient, name, or ID",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js --in=\"vodka\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazylegsKorb/intro-to-networking-proj1.git"
+  },
+  "keywords": [
+    "drink",
+    "drinks",
+    "alocoholic",
+    "non-alcoholic",
+    "bar",
+    "beverage",
+    "recipe"
+  ],
+  "author": "Spencer Korb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrazylegsKorb/intro-to-networking-proj1/issues"
+  },
+  "homepage": "https://github.com/CrazylegsKorb/intro-to-networking-proj1#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "yargs": "^12.0.2"
+  }
+}

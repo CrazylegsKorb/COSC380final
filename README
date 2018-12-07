@@ -1,0 +1,12 @@
+drink-search uses three arguments to search through a database of drinks
+
+arguments to use:
+--in=""             - searches and returns drinks that use a given ingredient
+--id=""             - searches and returns a drink that has a specific drink ID
+--name=""           - searches and returns the first drink that matches the given name
+--rand=boolean      - returns a random drink
+--alco=boolean      - returns alcoholic or non-alcoholic drinks
+
+no more than one argument can be used at a time!
+some drinks in the database have weird values stored for ingredients and measurements, this can be reflected on the website for the database:
+    https://www.thecocktaildb.com
